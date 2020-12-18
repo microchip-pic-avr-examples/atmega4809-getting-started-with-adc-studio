@@ -1,41 +1,28 @@
 <!-- Please do not change this logo with link -->
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# Update the title for atmega4809-getting-started-with-adc-studio here
+# Getting Started with Analog-to-Digital Converter (ADC) Examples (Microchip Studio)
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+  This repository contains examples of bare metal source code for Analog-to-Digital Converter (ADC) as described in [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-90003209A.pdf) document from Microchip. The repository contains a Microchip Studio Solution with multiple projects inside:
+
+* [<strong>ADC Event Triggered:</strong>](Event_Triggered) The purpose of this project is to provide an example on how to configure the ADC to trigger a conversion on a specific event (for more details, see [<strong>ADC Event Triggered</strong>](Event_Triggered))
+* [<strong>ADC Free Running:</strong>](Free_Running) This example uses ADC in Free-Running mode. When configuring the ADC in Free-Running mode, the next conversion starts immediately after the previous one completes (for more details, see [<strong>ADC Free Running</strong>](Free_Running))
+* [<strong>ADC Sample Accumulator:</strong>](Sample_Accumulator) This example uses the ADC in Sample Accumulator mode. In Sample Accumulator mode the ADC can add up to 64 samples in an accumulator register (for more details, see [<strong>ADC Sample Accumulator</strong>](Sample_Accumulator))
+* [<strong>ADC Single Conversion:</strong>](Single_Conversion) The simplest mode of using the ADC is to make a single conversion (for more details, see [<strong>ADC Single Conversion</strong>](Single_Conversion))
+* [<strong>ADC Window Comparator:</strong>](Window_Comparator) This example uses the ADC in Window Comparator mode. In this mode, the device can detect if the ADC result is below or above a specific threshold value (for more details, see [<strong>ADC Window Comparator</strong>](Window_Comparator))
 
 ## Related Documentation
+More details and code examples on the ATMEGA4809 can be found at the following links:
+- [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-90003209A.pdf)
+- [ATMEGA4809 Product Page](https://www.microchip.com/wwwproducts/en/ATMEGA4809)
+- [ATMEGA4809 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=atmega4809)
+- [ATMEGA4809 Project Examples in START](https://start.atmel.com/#examples/ATMEGA4809XplainedPro)
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
 
 ## Software Used
+- Microchip Studio 7.0.2542 or newer [(https://www.microchip.com/mplab/microchip-studio)](https://www.microchip.com/mplab/microchip-studio)
+- ATmega_DFP 1.5.362 or newer Device Pack
 
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
 
 ## Hardware Used
-
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
-
-## Setup
-
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Operation
-
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Summary
-
-<!-- Summarize what the example has shown -->
+- ATMEGA4809 Xplained Pro [(ATMEGA4809-XPRO)](https://www.microchip.com/developmenttools/ProductDetails/ATMEGA4809-XPRO)
