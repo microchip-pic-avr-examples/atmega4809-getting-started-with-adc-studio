@@ -3,7 +3,7 @@
 
 # Getting Started with Analog-to-Digital Converter (ADC) Examples (Microchip Studio)
 
-  This repository contains examples of bare metal source code for Analog-to-Digital Converter (ADC) as described in [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-90003209A.pdf) document from Microchip. The repository contains a Microchip Studio Solution with multiple projects inside:
+  This repository contains examples of bare metal source code for Analog-to-Digital Converter (ADC) as described in [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](https://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-DS90003209.pdf) document from Microchip. The repository contains a Microchip Studio Solution with multiple projects inside:
 
 * [<strong>ADC Event Triggered:</strong>](Event_Triggered) The purpose of this project is to provide an example on how to configure the ADC to trigger a conversion on a specific event (for more details, see [<strong>ADC Event Triggered</strong>](Event_Triggered))
 * [<strong>ADC Free Running:</strong>](Free_Running) This example uses ADC in Free-Running mode. When configuring the ADC in Free-Running mode, the next conversion starts immediately after the previous one completes (for more details, see [<strong>ADC Free Running</strong>](Free_Running))
@@ -13,7 +13,7 @@
 
 ## Related Documentation
 More details and code examples on the ATMEGA4809 can be found at the following links:
-- [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](http://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-90003209A.pdf)
+- [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](https://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-DS90003209.pdf)
 - [ATMEGA4809 Product Page](https://www.microchip.com/wwwproducts/en/ATMEGA4809)
 - [ATMEGA4809 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=atmega4809)
 - [ATMEGA4809 Project Examples in START](https://start.atmel.com/#examples/ATMEGA4809XplainedPro)

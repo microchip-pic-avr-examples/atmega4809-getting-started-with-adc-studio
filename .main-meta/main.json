@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.atmega4809-getting-started-with-adc-studio",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Getting Started with Analog-to-Digital Converter (ADC) Examples",
         "projectName": "atmega4809-getting-started-with-adc-studio",
-        "shortDescription": "This repository contains 5 bare metal code examples that show how to use the ADC peripheral of the ATmega4809 device in different modes. It is a companion to the TB3209-Getting Started with Analog-to-Digital Converter (ADC).",
+        "shortDescription": "This repository contains 5 bare metal code examples that show how to use the Analog-to-Digital Converter (ADC) peripheral of the ATmega4809 device in different modes. It is a companion to the TB3209-Getting Started with Analog-to-Digital Converter (ADC).",
         "ide": {
             "name": "STUDIO",
             "semverRange": ">=7.0.2542"
@@ -41,10 +41,6 @@
             [
                 "Peripherals",
                 "ADC"
-            ],
-            [
-                "Development Kit",
-                "ATmega4809 Xplained Pro"
             ]
         ],
         "peripherals": [
