@@ -1,7 +1,7 @@
 <!-- Please do not change this logo with link -->
 [![MCHP](../images/microchip.png)](https://www.microchip.com)
 
- # ADC Free Running
+ # ADC Free Running - Use Case for the ATmega4809 Microcontroller with Microchip Studio
 
 This example uses ADC in Free-Running mode. When configuring the ADC in Free-Running mode, the next conversion starts automatically after the previous one is completed. The ADC input pin needs to have the digital input buffer and the pull-up resistor disabled to have the highest possible input impedance.
 
@@ -14,8 +14,8 @@ More details and code examples on the ATMEGA4809 can be found at the following l
 - [ATMEGA4809 Project Examples in START](https://start.atmel.com/#examples/ATMEGA4809XplainedPro)
 
 ## Software Used
-- Microchip Studio 7.0.2542 or newer [(https://www.microchip.com/mplab/microchip-studio)](https://www.microchip.com/mplab/microchip-studio)
-- ATmega_DFP 1.5.362 or newer Device Pack
+- Microchip Studio 7.0.2594 or newer [(https://www.microchip.com/mplab/microchip-studio)](https://www.microchip.com/mplab/microchip-studio)
+- ATmega_DFP 2.1.506 or newer Device Pack
 
 ## Hardware Used
 - ATMEGA4809 Xplained Pro [(ATMEGA4809-XPRO)](https://www.microchip.com/developmenttools/ProductDetails/ATMEGA4809-XPRO)

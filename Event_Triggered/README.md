@@ -1,7 +1,7 @@
 <!-- Please do not change this logo with link -->
 [![MCHP](../images/microchip.png)](https://www.microchip.com)
 
- # ADC Event Triggered
+ # ADC Event Triggered - Use Case for the ATmega4809 Microcontroller with Microchip Studio
 
 The purpose of this project is to provide an example on how to configure the ADC to trigger a conversion on a specific event. The RTC overflow is used in this example to trigger the ADC conversion and the on-board LED will be toggled each time the conversion is triggered.
 
@@ -14,8 +14,8 @@ More details and code examples on the ATMEGA4809 can be found at the following l
 - [ATMEGA4809 Project Examples in START](https://start.atmel.com/#examples/ATMEGA4809XplainedPro)
 
 ## Software Used
-- Microchip Studio 7.0.2542 or newer [(https://www.microchip.com/mplab/microchip-studio)](https://www.microchip.com/mplab/microchip-studio)
-- ATmega_DFP 1.5.362 or newer Device Pack
+- Microchip Studio 7.0.2594 or newer [(https://www.microchip.com/mplab/microchip-studio)](https://www.microchip.com/mplab/microchip-studio)
+- ATmega_DFP 2.1.506 or newer Device Pack
 
 ## Hardware Used
 - ATMEGA4809 Xplained Pro [(ATMEGA4809-XPRO)](https://www.microchip.com/developmenttools/ProductDetails/ATMEGA4809-XPRO)
