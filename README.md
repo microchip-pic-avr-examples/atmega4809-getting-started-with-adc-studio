@@ -1,7 +1,7 @@
 <!-- Please do not change this logo with link -->
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# Getting Started with Analog-to-Digital Converter (ADC) Examples (Microchip Studio)
+# Getting Started with Analog-to-Digital Converter (ADC) - Examples for the ATmega4809 Microcontroller with Microchip Studio
 
   This repository contains examples of bare metal source code for Analog-to-Digital Converter (ADC) as described in [TB3209-Getting Started with Analog-to-Digital Converter (ADC)](https://ww1.microchip.com/downloads/en/Appnotes/TB3209-Getting-Started-with-ADC-DS90003209.pdf) document from Microchip. The repository contains a Microchip Studio Solution with multiple projects inside:
 
@@ -20,8 +20,8 @@ More details and code examples on the ATMEGA4809 can be found at the following l
 
 
 ## Software Used
-- Microchip Studio 7.0.2542 or newer [(https://www.microchip.com/mplab/microchip-studio)](https://www.microchip.com/mplab/microchip-studio)
-- ATmega_DFP 1.5.362 or newer Device Pack
+- Microchip Studio 7.0.2594 or newer [(https://www.microchip.com/mplab/microchip-studio)](https://www.microchip.com/mplab/microchip-studio)
+- ATmega_DFP 2.1.506 or newer Device Pack
 
 
 ## Hardware Used

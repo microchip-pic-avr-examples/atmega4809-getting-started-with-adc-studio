@@ -24,7 +24,7 @@
         },
         "configurator": {
             "name": "N/A",
-            "semverRange": ""
+            "semverRange": " "
         },
         "device": {
             "metaDataVersion": "1.0.0",
