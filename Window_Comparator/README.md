@@ -20,16 +20,16 @@ More details and code examples on the ATMEGA4809 can be found at the following l
 - ATMEGA4809 Xplained Pro [(ATMEGA4809-XPRO)](https://www.microchip.com/developmenttools/ProductDetails/ATMEGA4809-XPRO)
 
 ## Setup
-The ATMEGA4809 Xplained Pro Development Board is used as test platform.
+The ATMEGA4809 Xplained Pro development board is used as test platform.
 
 <br><img src="../images/atmega4809_xplainedpro.jpg" height="300">
 
 The following configurations must be made for this project:
 
-- The CPU frequency is 3.33 MHz.
-- Configure pin PD6 as input and disable the digital input buffer and the pull-up resistor. Pin PD6 will be used as ADC input channel.
-- Configure ADC as follows: 10-bit mode, use internal voltage reference and peripheral clock divided by 4 as clock source.Set the conversion window comparator low threshold (a value of `0x100` defined as `WINDOW_CMP_LOW_TH_EXAMPLE`). Configure the ADC in Window mode and Free-Running.
-- Configure pin PB5 as output and with initial value HIGH. This pin will be used by the on-board LED and the initial value HIGH represents LED OFF.
+- The CPU frequency is 3.33 MHz
+- Configure pin PD6 as input, ADC input channel, and disable the digital input buffer and the pull-up resistor
+- ADC configuration: Window mode and Free-Running, 10-bit mode, use internal voltage reference and peripheral clock divided by four as clock source, set the conversion window comparator low threshold (a value of `0x100` defined as `WINDOW_CMP_LOW_TH_EXAMPLE`)
+- Configure pin PB5 as output and with initial value HIGH. This pin will be used by the on-board LED and the initial value HIGH represents LED OFF
 
  |Pin                       | Configuration      |
  | :---------------------:  | :----------------: |
@@ -41,25 +41,25 @@ The following configurations must be made for this project:
 
  2. Open the **atmega4809-getting-started-with-adc-studio.atsln** solution in Microchip Studio.
 
- 3. Set the **Window_Comparator** project as Start-Up project. Right click on the project in the **Solution Explorer** tab and click **Set as StartUp Project**.
+ 3. Set the **Window_Comparator** project as Start-Up project. Right click the project in the **Solution Explorer** tab and click **Set as StartUp Project**.
 
 <br><img src="../images/Start_Up_Project.PNG" height="500">
 
- 4. Build the **Window_Comparator** project: Right click on the **atmega4809-getting-started-with-adc-studio** solution and select **Build Solution**.
+ 4. Build the **Window_Comparator** project: Right click the **atmega4809-getting-started-with-adc-studio** solution and select **Build Solution**.
 
 <br><img src="../images/Build_Solution.PNG"  height="500">
 
  5. Select the **ATMEGA4809 Xplained Pro** in the Connected Hardware Tool section of the project settings:
-   - Right click on the project and click **Properties**
-   - Click on the **Tool** tab
+   - Right click the project and click **Properties**
+   - Click the **Tool** tab
    - Select the ATMEGA4809 Xplained Pro (click on the **SN**) in the **Selected debugger/programmer** section and Save (CTRL + S):
 
 <br><img src="../images/Select_Tool.PNG" height="500">
 
- 6. Program the project to the board: click on the **Debug** tab and Click **Start Without Debugging**.
+ 6. Program the project to the board: click the **Debug** tab and Click **Start Without Debugging**.
 
 <br><img src="../images/Start_Without_Debugging.PNG" height="500">
 
 ## Summary
 
-This project shows how to configure the ADC peripheral in Window Comparator mode. In this mode, the microcontroller detects if the ADC result is below or above a specific threshold value.
+This project shows how to configure the ADC peripheral in Window Comparator mode. In this mode, the microcontroller (MCU) detects if the ADC result is below or above a specific threshold value.
